@@ -1,49 +1,35 @@
 # Fernando Viana
 
-**Cyber Security Analyst | Offensive Security | Pentest | Vulnerability Research**
+**Vulnerability Researcher · Offensive Security · Application Security · Penetration Testing**
 
-📍 Brasília, DF, Brasil
-🔗 [LinkedIn](https://www.linkedin.com/in/fernanduviana/)
+I research security flaws in web applications and build tools for authorized security assessment. My work focuses on vulnerability discovery, responsible disclosure, reproducible proof of concept research, and Model Context Protocol (MCP) security.
 
----
+📍 Brasília, Brazil · [LinkedIn](https://www.linkedin.com/in/fernanduviana/) · **English** | [Português](README.pt-BR.md)
 
-## Finalidade
+## Open source security tool
 
-Este perfil reúne pesquisa, ferramentas e documentação de segurança ofensiva com fins **defensivos e acadêmicos**: laboratórios de treinamento (Hack The Box, TryHackMe, cyber ranges), CTFs, estudo para certificações (OSCP) e programas de bug bounty com escopo definido. O objetivo é aprofundar o entendimento de vulnerabilidades reais para melhorar defesas, não causar dano.
+### [MCPEnum](https://github.com/capivara-research/MCPEnum)
 
-## Experiência
+A Go command line tool for **MCP server discovery and enumeration**. It finds HTTP-accessible MCP endpoints and inventories advertised tools, resources, resource templates, and prompts. It supports Streamable HTTP and legacy HTTP+SSE, with human-readable and JSON output. Its inventory is read-only: it does not invoke tools or read resources.
 
-Atuação em desenvolvimento de software e cibersegurança ofensiva, incluindo:
+[Source and documentation](https://github.com/capivara-research/MCPEnum) · [Releases](https://github.com/capivara-research/MCPEnum/releases)
 
-- Testes de intrusão em ambientes controlados (labs, CTFs, bug bounty)
-- Pesquisa e exploração de CVEs conhecidos, com reprodução documentada
-- Escalonamento e submissão de vulnerabilidades a mantenedores/CNAs
-- Desenvolvimento de scripts e automações para reconhecimento, exploração e pós-exploração
+## Published CVEs
 
-## Ferramentas e tecnologias
+| CVE | Product and finding | Research |
+| --- | --- | --- |
+| [CVE-2026-110025](https://www.cve.org/CVERecord?id=CVE-2026-110025) | **phpwcms** — unrestricted file upload; remote code execution when the server executes uploaded `.phtml` files | [Technical analysis and safe PoC](https://github.com/capivara-research/CVE-2026-110025) |
+| [CVE-2026-108924](https://www.cve.org/CVERecord?id=CVE-2026-108924) | **Kirby CMS** — authorization bypass exposing restricted model metadata in dynamic field options | [Technical analysis and safe PoC](https://github.com/capivara-research/CVE-2026-108924) |
+| [CVE-2026-105950](https://www.cve.org/CVERecord?id=CVE-2026-105950) | **Formwork CMS** — stored cross-site scripting through a `formaction` URI sanitizer bypass | [Technical analysis and safe PoC](https://github.com/capivara-research/CVE-2026-105950) |
 
-`Nmap` `Metasploit` `Burp Suite` `SQLmap` `Feroxbuster` / `Gobuster` `LinPEAS` / `pspy` `John the Ripper` / `Hashcat` `Python` `Bash` `Active Directory tooling` `Git` / `GitHub CLI`
+The official CVE records credit me as the reporter. Each linked repository documents the vulnerability, its prerequisites, and a reproducible local demonstration.
 
-## Repositórios
+## Areas of work
 
-| Repositório | Conteúdo |
-|---|---|
-| [Pentest-Tools](https://github.com/capivara-research/Pentest-Tools) | Ferramentas de Red Team/Pentest organizadas por categoria (AD, privesc, movimentação lateral, pivoting) |
-| [CVE-Exploitation](https://github.com/capivara-research/CVE-Exploitation) | Estudos e provas de conceito de CVEs, com explicação do mecanismo de exploração |
-| [WordPress-Path-Traversal-CVE-2019-11447](https://github.com/capivara-research/WordPress-Path-Traversal-CVE-2019-11447) | Relatório técnico de teste de intrusão (CPTS/HTB) sobre path traversal em plugin WordPress |
+`Vulnerability Research` · `Responsible Disclosure` · `Web Application Security` · `CMS Security` · `Access Control` · `Cross-Site Scripting (XSS)` · `File Upload Security` · `MCP Security` · `Go` · `Python` · `Penetration Testing`
 
-Cada repositório contém documentação técnica com comandos, parâmetros usados e o raciocínio por trás de cada etapa — não apenas o resultado final.
+I also maintain [Pentest-Tools](https://github.com/capivara-research/Pentest-Tools), a categorized collection of tools for authorized offensive security work.
 
-## Declaração de uso
+## Contact
 
-> ⚠️ Todo o conteúdo, código e documentação deste perfil destina-se **exclusivamente** a ambientes de teste autorizados: laboratórios próprios, plataformas de treinamento (HTB, THM, cyber ranges), CTFs e programas de bug bounty com escopo explícito. **Não deve ser utilizado contra sistemas sem autorização expressa do proprietário.** O uso indevido é de responsabilidade exclusiva de quem o pratica.
-
-## Histórico de commits
-
-O histórico de commits desta conta reflete trabalho real e incremental — consulte os repositórios acima para ver a evolução de cada pesquisa/relatório.
-
-## Licença e contato
-
-Repositórios públicos licenciados sob **MIT** (ver `LICENSE` em cada um), com cláusula adicional de uso restrito a testes autorizados.
-
-Contato profissional: [LinkedIn](https://www.linkedin.com/in/fernanduviana/)
+For research collaboration or professional inquiries, connect with me on [LinkedIn](https://www.linkedin.com/in/fernanduviana/). Security testing and proof of concept work here are intended for systems I own or am authorized to assess.
