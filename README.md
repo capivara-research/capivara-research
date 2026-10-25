@@ -1,12 +1,12 @@
 # Fernando Viana
 
-**Vulnerability Researcher · Offensive Security · Application Security · Penetration Testing**
+**Vulnerability Research · Application Security · Offensive Security · MCP Security**
 
-I research security flaws in web applications and build tools for authorized security assessment. My work focuses on vulnerability discovery, responsible disclosure, reproducible proof of concept research, and Model Context Protocol (MCP) security.
+I discovered and disclosed three published CVEs affecting Formwork, Kirby, and phpwcms. My public research documents root causes, prerequisites, and safe, reproducible proofs of concept. I also build tools for authorized security assessment, including MCPEnum, a Go utility for Model Context Protocol (MCP) discovery.
 
 📍 Brasília, Brazil · [LinkedIn](https://www.linkedin.com/in/fernanduviana/) · **English** | [Português](README.pt-BR.md)
 
-## Open source security tool
+## Featured open source project
 
 ### [MCPEnum](https://github.com/capivara-research/MCPEnum)
 
@@ -24,9 +24,11 @@ A Go command line tool for **MCP server discovery and enumeration**. It finds HT
 
 The official CVE records credit me as the reporter. Each linked repository documents the vulnerability, its prerequisites, and a reproducible local demonstration.
 
-## Areas of work
+## Research and engineering focus
 
-`Vulnerability Research` · `Responsible Disclosure` · `Web Application Security` · `CMS Security` · `Access Control` · `Cross-Site Scripting (XSS)` · `File Upload Security` · `MCP Security` · `Go` · `Python` · `Penetration Testing`
+- **Web application security:** CMS vulnerability research, access control, cross-site scripting (XSS), and file upload security.
+- **Responsible disclosure:** evidence-backed reports and local proofs of concept linked to published CVE records.
+- **Security tooling:** MCP server reconnaissance and enumeration in Go; Python and penetration testing tools for authorized environments.
 
 I also maintain [Pentest-Tools](https://github.com/capivara-research/Pentest-Tools), a categorized collection of tools for authorized offensive security work.
 

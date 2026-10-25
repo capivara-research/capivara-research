@@ -1,12 +1,12 @@
 # Fernando Viana
 
-**Pesquisador de Vulnerabilidades · Segurança Ofensiva · Segurança de Aplicações · Testes de Intrusão**
+**Pesquisa de Vulnerabilidades · Segurança de Aplicações · Segurança Ofensiva · Segurança MCP**
 
-Pesquiso falhas de segurança em aplicações web e desenvolvo ferramentas para avaliações de segurança autorizadas. Meu trabalho envolve descoberta de vulnerabilidades, divulgação responsável, provas de conceito reproduzíveis e segurança do Model Context Protocol (MCP).
+Descobri e divulguei três CVEs publicadas que afetam Formwork, Kirby e phpwcms. Minhas pesquisas públicas documentam causas, pré-requisitos e provas de conceito seguras e reproduzíveis. Também desenvolvo ferramentas para avaliações de segurança autorizadas, incluindo o MCPEnum, utilitário em Go para descoberta de serviços Model Context Protocol (MCP).
 
 📍 Brasília, Brasil · [LinkedIn](https://www.linkedin.com/in/fernanduviana/) · [English](README.md) | **Português**
 
-## Ferramenta de segurança de código aberto
+## Projeto de código aberto em destaque
 
 ### [MCPEnum](https://github.com/capivara-research/MCPEnum)
 
@@ -24,9 +24,11 @@ Ferramenta de linha de comando em Go para **descoberta e enumeração de servido
 
 Os registros oficiais das CVEs me creditam como autor dos relatos. Cada repositório documenta a vulnerabilidade, seus pré-requisitos e uma demonstração local reproduzível.
 
-## Áreas de atuação
+## Foco de pesquisa e desenvolvimento
 
-`Pesquisa de Vulnerabilidades` · `Divulgação Responsável` · `Segurança de Aplicações Web` · `Segurança de CMS` · `Controle de Acesso` · `Cross-Site Scripting (XSS)` · `Segurança de Uploads` · `Segurança MCP` · `Go` · `Python` · `Testes de Intrusão`
+- **Segurança de aplicações web:** pesquisa de vulnerabilidades em CMS, controle de acesso, cross-site scripting (XSS) e segurança de uploads.
+- **Divulgação responsável:** relatos com evidências e provas de conceito locais vinculados a registros CVE publicados.
+- **Ferramentas de segurança:** reconhecimento e enumeração de servidores MCP em Go; ferramentas em Python e para testes de intrusão em ambientes autorizados.
 
 Também mantenho o [Pentest-Tools](https://github.com/capivara-research/Pentest-Tools), uma coleção organizada de ferramentas para trabalhos autorizados em segurança ofensiva.
 
