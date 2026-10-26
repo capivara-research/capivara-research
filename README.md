@@ -2,7 +2,7 @@
 
 **Vulnerability Research · Application Security · Offensive Security · MCP Security**
 
-Security researcher focused on reproducible vulnerability research, responsible disclosure, and practical tooling for authorized assessments. My public work includes five published CVEs and safe proofs of concept that document root cause, prerequisites, impact, and remediation.
+Security researcher focused on reproducible vulnerability research, responsible disclosure, and practical tooling for authorized assessments. My public work includes seven published CVEs and safe proofs of concept that document root cause, prerequisites, impact, and remediation.
 
 📍 Brasília, Brazil · [LinkedIn](https://www.linkedin.com/in/fernanduviana/) · **English** | [Português](README.pt-BR.md)
 
@@ -15,8 +15,10 @@ Security researcher focused on reproducible vulnerability research, responsible 
 | [CVE-2026-110025](https://www.cve.org/CVERecord?id=CVE-2026-110025) | **phpwcms** | Unrestricted file upload leading to remote code execution when `.phtml` is executable | [Repository](https://github.com/capivara-research/CVE-2026-110025) |
 | [CVE-2026-108924](https://www.cve.org/CVERecord?id=CVE-2026-108924) | **Kirby CMS** | Authorization bypass exposing restricted model metadata in dynamic field options | [Repository](https://github.com/capivara-research/CVE-2026-108924) |
 | [CVE-2026-105950](https://www.cve.org/CVERecord?id=CVE-2026-105950) | **Formwork CMS** | Stored XSS through a `formaction` URI sanitizer bypass | [Repository](https://github.com/capivara-research/CVE-2026-105950) |
+| [CVE-2026-90932](https://www.cve.org/CVERecord?id=CVE-2026-90932) | **LaraDashboard** | Path traversal enabling arbitrary file deletion/write and potential RCE | [Repository](https://github.com/capivara-research/GHSA-g48h-h5pc-396j) |
+| [CVE-2026-90931](https://www.cve.org/CVERecord?id=CVE-2026-90931) | **LaraDashboard** | Stored XSS through unsanitized SVG upload | [Repository](https://github.com/capivara-research/GHSA-9gxw-qpx8-x9c7) |
 
-The official CVE records credit me as the reporter. Each repository contains evidence-backed analysis and a controlled, reproducible demonstration intended for authorized environments.
+The official CVE records credit me as the reporter. Five records were assigned by VulDB and two LaraDashboard records were assigned by VulnCheck. Each repository contains evidence-backed analysis and a controlled, reproducible demonstration intended for authorized environments.
 
 ## Tools by Capivara
 
