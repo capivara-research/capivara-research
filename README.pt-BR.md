@@ -15,8 +15,8 @@ Pesquisador de segurança focado em pesquisas reproduzíveis, divulgação respo
 | [CVE-2026-110025](https://www.cve.org/CVERecord?id=CVE-2026-110025) | **phpwcms** | Upload irrestrito com execução remota de código quando `.phtml` é executável | [Repositório](https://github.com/capivara-research/CVE-2026-110025) |
 | [CVE-2026-108924](https://www.cve.org/CVERecord?id=CVE-2026-108924) | **Kirby CMS** | Bypass de autorização expondo metadados restritos em opções dinâmicas | [Repositório](https://github.com/capivara-research/CVE-2026-108924) |
 | [CVE-2026-105950](https://www.cve.org/CVERecord?id=CVE-2026-105950) | **Formwork CMS** | XSS armazenado por bypass do sanitizador de URI em `formaction` | [Repositório](https://github.com/capivara-research/CVE-2026-105950) |
-| [CVE-2026-90932](https://www.cve.org/CVERecord?id=CVE-2026-90932) | **LaraDashboard** | Path traversal permitindo exclusão/escrita arbitrária e possível RCE | [Repositório](https://github.com/capivara-research/GHSA-g48h-h5pc-396j) |
-| [CVE-2026-90931](https://www.cve.org/CVERecord?id=CVE-2026-90931) | **LaraDashboard** | XSS armazenado por upload de SVG sem sanitização | [Repositório](https://github.com/capivara-research/GHSA-9gxw-qpx8-x9c7) |
+| [CVE-2026-90932](https://www.cve.org/CVERecord?id=CVE-2026-90932) | **LaraDashboard** | Path traversal permitindo exclusão/escrita arbitrária e possível RCE | [Repositório](https://github.com/capivara-research/CVE-2026-90932) |
+| [CVE-2026-90931](https://www.cve.org/CVERecord?id=CVE-2026-90931) | **LaraDashboard** | XSS armazenado por upload de SVG sem sanitização | [Repositório](https://github.com/capivara-research/CVE-2026-90931) |
 
 Os registros oficiais das CVEs me creditam como autor dos relatos. Cinco registros foram atribuídos pelo VulDB e os dois registros do LaraDashboard foram atribuídos pela VulnCheck. Cada repositório contém análise baseada em evidências e uma demonstração controlada e reproduzível para ambientes autorizados.
 
