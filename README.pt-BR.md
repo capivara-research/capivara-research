@@ -2,7 +2,7 @@
 
 **Pesquisa de Vulnerabilidades · Segurança de Aplicações · Segurança Ofensiva · Segurança MCP**
 
-Pesquisador de segurança focado em pesquisas reproduzíveis, divulgação responsável e ferramentas práticas para avaliações autorizadas. Meu trabalho público inclui oito CVEs publicadas e provas de conceito seguras que documentam causa raiz, pré-requisitos, impacto e correção.
+Pesquiso vulnerabilidades em aplicações web e ferramentas de segurança. Já publiquei oito CVEs, sempre acompanhadas de análise técnica, evidências e provas de conceito reproduzíveis.
 
 📍 Brasília, Brasil · [LinkedIn](https://www.linkedin.com/in/fernanduviana/) · [English](README.md) | **Português**
 

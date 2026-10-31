@@ -2,7 +2,7 @@
 
 **Vulnerability Research · Application Security · Offensive Security · MCP Security**
 
-Security researcher focused on reproducible vulnerability research, responsible disclosure, and practical tooling for authorized assessments. My public work includes eight published CVEs and safe proofs of concept that document root cause, prerequisites, impact, and remediation.
+I research vulnerabilities in web applications and build security tools. I have published eight CVEs, each supported by technical analysis, evidence, and a reproducible proof of concept.
 
 📍 Brasília, Brazil · [LinkedIn](https://www.linkedin.com/in/fernanduviana/) · **English** | [Português](README.pt-BR.md)
 
