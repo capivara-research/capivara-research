@@ -1,49 +1,44 @@
 # Fernando Viana
 
-**Pesquisa de Vulnerabilidades · Segurança de Aplicações · Segurança Ofensiva · Segurança MCP**
+**Pesquisa de vulnerabilidades · AppSec · Segurança ofensiva · IA e MCP**
 
-Pesquiso vulnerabilidades em aplicações web e desenvolvo ferramentas de segurança, com interesse especial em segurança ofensiva aplicada a LLMs, agentes de IA e MCP. Já publiquei oito CVEs, sempre acompanhadas de análise técnica, evidências e provas de conceito reproduzíveis.
+Olá! Eu sou o Fernando, pesquisador de segurança em Brasília.
+
+Gosto de entender como aplicações quebram, transformar descobertas em pesquisas reproduzíveis e criar ferramentas que sejam úteis fora do laboratório. Tenho explorado especialmente a segurança ofensiva de LLMs, agentes de IA e implementações do Model Context Protocol (MCP).
+
+Quando encontro uma vulnerabilidade, procuro publicar algo que outra pessoa consiga verificar: análise técnica, evidências, impacto, correção e uma prova de conceito controlada. Até agora, esse trabalho resultou em oito CVEs.
 
 📍 Brasília, Brasil · [LinkedIn](https://www.linkedin.com/in/fernanduviana/) · [English](README.md) | **Português**
 
-## CVEs publicadas
+## CVEs que publiquei
 
-| CVE | Produto | Vulnerabilidade | Pesquisa e PoC |
+| CVE | Produto | Vulnerabilidade | Pesquisa |
 | --- | --- | --- | --- |
-| [CVE-2026-120218](https://www.cve.org/CVERecord?id=CVE-2026-120218) | **TypeMill CMS** | XSS armazenado por instrução de processamento XSLT em SVG | [Repositório](https://github.com/capivara-research/CVE-2026-120218) |
-| [CVE-2026-116004](https://www.cve.org/CVERecord?id=CVE-2026-116004) | **Onyx** | Bypass do sandbox de iframe de mesma origem resultando em XSS armazenado | [Repositório](https://github.com/capivara-research/CVE-2026-116004) |
-| [CVE-2026-116000](https://www.cve.org/CVERecord?id=CVE-2026-116000) | **PrivateGPT** | SSRF no carregador de artefatos por URI | [Repositório](https://github.com/capivara-research/CVE-2026-116000) |
-| [CVE-2026-110025](https://www.cve.org/CVERecord?id=CVE-2026-110025) | **phpwcms** | Upload irrestrito com execução remota de código quando `.phtml` é executável | [Repositório](https://github.com/capivara-research/CVE-2026-110025) |
-| [CVE-2026-108924](https://www.cve.org/CVERecord?id=CVE-2026-108924) | **Kirby CMS** | Bypass de autorização expondo metadados restritos em opções dinâmicas | [Repositório](https://github.com/capivara-research/CVE-2026-108924) |
-| [CVE-2026-105950](https://www.cve.org/CVERecord?id=CVE-2026-105950) | **Formwork CMS** | XSS armazenado por bypass do sanitizador de URI em `formaction` | [Repositório](https://github.com/capivara-research/CVE-2026-105950) |
-| [CVE-2026-90932](https://www.cve.org/CVERecord?id=CVE-2026-90932) | **LaraDashboard** | Path traversal permitindo exclusão/escrita arbitrária e possível RCE | [Repositório](https://github.com/capivara-research/CVE-2026-90932) |
-| [CVE-2026-90931](https://www.cve.org/CVERecord?id=CVE-2026-90931) | **LaraDashboard** | XSS armazenado por upload de SVG sem sanitização | [Repositório](https://github.com/capivara-research/CVE-2026-90931) |
+| [CVE-2026-120218](https://www.cve.org/CVERecord?id=CVE-2026-120218) | **TypeMill CMS** | XSS armazenado por instrução XSLT em SVG | [Análise e PoC](https://github.com/capivara-research/CVE-2026-120218) |
+| [CVE-2026-116004](https://www.cve.org/CVERecord?id=CVE-2026-116004) | **Onyx** | Bypass do sandbox de iframe de mesma origem e XSS armazenado | [Análise e PoC](https://github.com/capivara-research/CVE-2026-116004) |
+| [CVE-2026-116000](https://www.cve.org/CVERecord?id=CVE-2026-116000) | **PrivateGPT** | SSRF no carregamento de artefatos por URI | [Análise e PoC](https://github.com/capivara-research/CVE-2026-116000) |
+| [CVE-2026-110025](https://www.cve.org/CVERecord?id=CVE-2026-110025) | **phpwcms** | Upload irrestrito com possibilidade de execução remota de código | [Análise e PoC](https://github.com/capivara-research/CVE-2026-110025) |
+| [CVE-2026-108924](https://www.cve.org/CVERecord?id=CVE-2026-108924) | **Kirby CMS** | Bypass de autorização em opções dinâmicas de campos | [Análise e PoC](https://github.com/capivara-research/CVE-2026-108924) |
+| [CVE-2026-105950](https://www.cve.org/CVERecord?id=CVE-2026-105950) | **Formwork CMS** | XSS armazenado por bypass do sanitizador de `formaction` | [Análise e PoC](https://github.com/capivara-research/CVE-2026-105950) |
+| [CVE-2026-90932](https://www.cve.org/CVERecord?id=CVE-2026-90932) | **LaraDashboard** | Path traversal com escrita/exclusão arbitrária e possível RCE | [Análise e PoC](https://github.com/capivara-research/CVE-2026-90932) |
+| [CVE-2026-90931](https://www.cve.org/CVERecord?id=CVE-2026-90931) | **LaraDashboard** | XSS armazenado por upload de SVG | [Análise e PoC](https://github.com/capivara-research/CVE-2026-90931) |
 
-Os registros e as fontes de atribuição das CVEs me creditam como autor dos relatos. Seis registros foram atribuídos pelo VulDB e os dois registros do LaraDashboard foram atribuídos pela VulnCheck. Cada repositório contém análise baseada em evidências e uma demonstração controlada e reproduzível para ambientes autorizados.
+Seis dessas CVEs foram atribuídas pelo VulDB e duas pela VulnCheck.
 
-## Tools by Capivara
+## Projetos
 
-| Ferramenta | Tecnologia | Finalidade | Links |
-| --- | --- | --- | --- |
-| **MCPEnum** | Go | Descoberta e enumeração somente leitura de servidores MCP acessíveis por HTTP, incluindo ferramentas, recursos, modelos e prompts anunciados | [Código](https://github.com/capivara-research/MCPEnum) · [Releases](https://github.com/capivara-research/MCPEnum/releases) |
-| **Pentest-Tools** | Shell / múltiplas linguagens | Coleção organizada para pentest autorizado, Active Directory, escalação de privilégios, movimento lateral e pivoting | [Código](https://github.com/capivara-research/Pentest-Tools) |
-| **RedSonnet-5** | Shell / OpenCode | Pacote de agentes e comandos para fluxos autorizados de CTF, HTB, OffSec PG e DESEC | [Código](https://github.com/capivara-research/RedSonnet-5) |
+- **[MCPEnum](https://github.com/capivara-research/MCPEnum)** — ferramenta em Go para descobrir endpoints MCP e enumerar, sem invocá-los, ferramentas, recursos, templates e prompts anunciados.
+- **[Pentest-Tools](https://github.com/capivara-research/Pentest-Tools)** — coleção de ferramentas e referências que uso em pentests e laboratórios autorizados.
+- **[RedSonnet-5](https://github.com/capivara-research/RedSonnet-5)** — agentes e comandos para apoiar meus fluxos de CTF, HTB, OffSec PG e DESEC.
 
-### MCPEnum
+## O que tenho explorado
 
-O MCPEnum é um binário Go que descobre endpoints MCP e inventaria as capacidades anunciadas. Suporta Streamable HTTP e HTTP+SSE legado, oferece saída legível ou JSON e não invoca ferramentas, lê recursos ou executa prompts durante o inventário.
-
-```sh
-mcpenum --target 127.0.0.1:8000
-mcpenum --url https://mcp.example.test/api/mcp --format json
-```
-
-## Foco de pesquisa e desenvolvimento
-
-- **Segurança de aplicações web:** pesquisa em CMS, controle de acesso, XSS, SSRF, path traversal e segurança de uploads.
-- **Divulgação responsável:** relatos baseados em evidências, coordenação com fornecedores e PoCs locais ligados a registros públicos.
-- **Ferramentas de segurança:** reconhecimento MCP em Go e ferramentas práticas para ambientes autorizados de segurança ofensiva.
+- Superfícies de ataque em LLMs, agentes de IA e servidores MCP.
+- Vulnerabilidades em aplicações web e CMS, principalmente controle de acesso, XSS, SSRF, path traversal e upload de arquivos.
+- Automação e ferramentas para pesquisa ofensiva em ambientes autorizados.
 
 ## Contato
 
-Para colaborações em pesquisa ou assuntos profissionais, entre em contato pelo [LinkedIn](https://www.linkedin.com/in/fernanduviana/). Os testes e provas de conceito publicados aqui destinam-se a sistemas próprios ou avaliados com autorização.
+Se quiser conversar sobre pesquisa de vulnerabilidades, segurança de IA ou colaboração em algum projeto, fale comigo pelo [LinkedIn](https://www.linkedin.com/in/fernanduviana/).
+
+> Todo teste e PoC publicado aqui foi desenvolvido para sistemas próprios ou ambientes com autorização.
