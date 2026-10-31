@@ -2,7 +2,7 @@
 
 **Vulnerability Research · Application Security · Offensive Security · MCP Security**
 
-I research vulnerabilities in web applications and build security tools. I have published eight CVEs, each supported by technical analysis, evidence, and a reproducible proof of concept.
+I research vulnerabilities in web applications and build security tools, with a particular interest in offensive security for LLMs, AI agents, and MCP. I have published eight CVEs, each supported by technical analysis, evidence, and a reproducible proof of concept.
 
 📍 Brasília, Brazil · [LinkedIn](https://www.linkedin.com/in/fernanduviana/) · **English** | [Português](README.pt-BR.md)
 

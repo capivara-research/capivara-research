@@ -2,7 +2,7 @@
 
 **Pesquisa de Vulnerabilidades · Segurança de Aplicações · Segurança Ofensiva · Segurança MCP**
 
-Pesquiso vulnerabilidades em aplicações web e ferramentas de segurança. Já publiquei oito CVEs, sempre acompanhadas de análise técnica, evidências e provas de conceito reproduzíveis.
+Pesquiso vulnerabilidades em aplicações web e desenvolvo ferramentas de segurança, com interesse especial em segurança ofensiva aplicada a LLMs, agentes de IA e MCP. Já publiquei oito CVEs, sempre acompanhadas de análise técnica, evidências e provas de conceito reproduzíveis.
 
 📍 Brasília, Brasil · [LinkedIn](https://www.linkedin.com/in/fernanduviana/) · [English](README.md) | **Português**
 
