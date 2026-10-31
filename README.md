@@ -2,7 +2,7 @@
 
 **Vulnerability Research · Application Security · Offensive Security · MCP Security**
 
-Security researcher focused on reproducible vulnerability research, responsible disclosure, and practical tooling for authorized assessments. My public work includes seven published CVEs and safe proofs of concept that document root cause, prerequisites, impact, and remediation.
+Security researcher focused on reproducible vulnerability research, responsible disclosure, and practical tooling for authorized assessments. My public work includes eight published CVEs and safe proofs of concept that document root cause, prerequisites, impact, and remediation.
 
 📍 Brasília, Brazil · [LinkedIn](https://www.linkedin.com/in/fernanduviana/) · **English** | [Português](README.pt-BR.md)
 
@@ -10,6 +10,7 @@ Security researcher focused on reproducible vulnerability research, responsible 
 
 | CVE | Product | Finding | Research and PoC |
 | --- | --- | --- | --- |
+| [CVE-2026-120218](https://www.cve.org/CVERecord?id=CVE-2026-120218) | **TypeMill CMS** | Stored XSS through an SVG XSLT processing instruction | [Repository](https://github.com/capivara-research/CVE-2026-120218) |
 | [CVE-2026-116004](https://www.cve.org/CVERecord?id=CVE-2026-116004) | **Onyx** | Same-origin iframe sandbox bypass leading to stored XSS | [Repository](https://github.com/capivara-research/CVE-2026-116004) |
 | [CVE-2026-116000](https://www.cve.org/CVERecord?id=CVE-2026-116000) | **PrivateGPT** | Server-side request forgery in the URI artifact loader | [Repository](https://github.com/capivara-research/CVE-2026-116000) |
 | [CVE-2026-110025](https://www.cve.org/CVERecord?id=CVE-2026-110025) | **phpwcms** | Unrestricted file upload leading to remote code execution when `.phtml` is executable | [Repository](https://github.com/capivara-research/CVE-2026-110025) |
@@ -18,7 +19,7 @@ Security researcher focused on reproducible vulnerability research, responsible 
 | [CVE-2026-90932](https://www.cve.org/CVERecord?id=CVE-2026-90932) | **LaraDashboard** | Path traversal enabling arbitrary file deletion/write and potential RCE | [Repository](https://github.com/capivara-research/CVE-2026-90932) |
 | [CVE-2026-90931](https://www.cve.org/CVERecord?id=CVE-2026-90931) | **LaraDashboard** | Stored XSS through unsanitized SVG upload | [Repository](https://github.com/capivara-research/CVE-2026-90931) |
 
-The official CVE records credit me as the reporter. Five records were assigned by VulDB and two LaraDashboard records were assigned by VulnCheck. Each repository contains evidence-backed analysis and a controlled, reproducible demonstration intended for authorized environments.
+The CVE records and assignment sources credit me as the reporter. Six records were assigned by VulDB and two LaraDashboard records were assigned by VulnCheck. Each repository contains evidence-backed analysis and a controlled, reproducible demonstration intended for authorized environments.
 
 ## Tools by Capivara
 

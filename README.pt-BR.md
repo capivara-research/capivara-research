@@ -2,7 +2,7 @@
 
 **Pesquisa de Vulnerabilidades · Segurança de Aplicações · Segurança Ofensiva · Segurança MCP**
 
-Pesquisador de segurança focado em pesquisas reproduzíveis, divulgação responsável e ferramentas práticas para avaliações autorizadas. Meu trabalho público inclui sete CVEs publicadas e provas de conceito seguras que documentam causa raiz, pré-requisitos, impacto e correção.
+Pesquisador de segurança focado em pesquisas reproduzíveis, divulgação responsável e ferramentas práticas para avaliações autorizadas. Meu trabalho público inclui oito CVEs publicadas e provas de conceito seguras que documentam causa raiz, pré-requisitos, impacto e correção.
 
 📍 Brasília, Brasil · [LinkedIn](https://www.linkedin.com/in/fernanduviana/) · [English](README.md) | **Português**
 
@@ -10,6 +10,7 @@ Pesquisador de segurança focado em pesquisas reproduzíveis, divulgação respo
 
 | CVE | Produto | Vulnerabilidade | Pesquisa e PoC |
 | --- | --- | --- | --- |
+| [CVE-2026-120218](https://www.cve.org/CVERecord?id=CVE-2026-120218) | **TypeMill CMS** | XSS armazenado por instrução de processamento XSLT em SVG | [Repositório](https://github.com/capivara-research/CVE-2026-120218) |
 | [CVE-2026-116004](https://www.cve.org/CVERecord?id=CVE-2026-116004) | **Onyx** | Bypass do sandbox de iframe de mesma origem resultando em XSS armazenado | [Repositório](https://github.com/capivara-research/CVE-2026-116004) |
 | [CVE-2026-116000](https://www.cve.org/CVERecord?id=CVE-2026-116000) | **PrivateGPT** | SSRF no carregador de artefatos por URI | [Repositório](https://github.com/capivara-research/CVE-2026-116000) |
 | [CVE-2026-110025](https://www.cve.org/CVERecord?id=CVE-2026-110025) | **phpwcms** | Upload irrestrito com execução remota de código quando `.phtml` é executável | [Repositório](https://github.com/capivara-research/CVE-2026-110025) |
@@ -18,7 +19,7 @@ Pesquisador de segurança focado em pesquisas reproduzíveis, divulgação respo
 | [CVE-2026-90932](https://www.cve.org/CVERecord?id=CVE-2026-90932) | **LaraDashboard** | Path traversal permitindo exclusão/escrita arbitrária e possível RCE | [Repositório](https://github.com/capivara-research/CVE-2026-90932) |
 | [CVE-2026-90931](https://www.cve.org/CVERecord?id=CVE-2026-90931) | **LaraDashboard** | XSS armazenado por upload de SVG sem sanitização | [Repositório](https://github.com/capivara-research/CVE-2026-90931) |
 
-Os registros oficiais das CVEs me creditam como autor dos relatos. Cinco registros foram atribuídos pelo VulDB e os dois registros do LaraDashboard foram atribuídos pela VulnCheck. Cada repositório contém análise baseada em evidências e uma demonstração controlada e reproduzível para ambientes autorizados.
+Os registros e as fontes de atribuição das CVEs me creditam como autor dos relatos. Seis registros foram atribuídos pelo VulDB e os dois registros do LaraDashboard foram atribuídos pela VulnCheck. Cada repositório contém análise baseada em evidências e uma demonstração controlada e reproduzível para ambientes autorizados.
 
 ## Tools by Capivara
 
