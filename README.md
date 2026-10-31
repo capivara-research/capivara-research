@@ -4,9 +4,9 @@
 
 Hi! I'm Fernando, a security researcher based in Brasília, Brazil.
 
-I enjoy understanding how applications break, turning findings into reproducible research, and building tools that remain useful outside the lab. I am particularly interested in the offensive security of LLMs, AI agents, and Model Context Protocol (MCP) implementations.
+I like understanding where trust between users, applications, and AI systems can fail. These days, I split my time between web application research, offensive security for LLMs and AI agents, and the exploration of Model Context Protocol (MCP) implementations.
 
-When I find a vulnerability, I try to publish something others can verify: technical analysis, evidence, impact, remediation, and a controlled proof of concept. So far, that work has resulted in eight CVEs.
+My approach is simple: a finding only becomes useful when others can understand and reproduce it. That is why I publish technical analysis, evidence, impact, remediation, and a controlled proof of concept. This work has resulted in eight CVEs so far.
 
 📍 Brasília, Brazil · [LinkedIn](https://www.linkedin.com/in/fernanduviana/) · **English** | [Português](README.pt-BR.md)
 
@@ -31,11 +31,12 @@ Six of these CVEs were assigned by VulDB and two by VulnCheck.
 - **[Pentest-Tools](https://github.com/capivara-research/Pentest-Tools)** — tools and references I use during authorized penetration tests and labs.
 - **[RedSonnet-5](https://github.com/capivara-research/RedSonnet-5)** — agents and commands that support my CTF, HTB, OffSec PG, and DESEC workflows.
 
-## What I am exploring
+## On my radar
 
-- Attack surfaces in LLMs, AI agents, and MCP servers.
+- Attack surfaces and trust boundaries in LLMs and AI agents.
+- Discovery, enumeration, and abuse of functionality exposed by MCP servers.
 - Web application and CMS vulnerabilities, especially access control, XSS, SSRF, path traversal, and file uploads.
-- Automation and tooling for offensive research in authorized environments.
+- Automation that makes offensive research faster and reproducible.
 
 ## Contact
 

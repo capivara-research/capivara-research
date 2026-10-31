@@ -4,9 +4,9 @@
 
 Olá! Eu sou o Fernando, pesquisador de segurança em Brasília.
 
-Gosto de entender como aplicações quebram, transformar descobertas em pesquisas reproduzíveis e criar ferramentas que sejam úteis fora do laboratório. Tenho explorado especialmente a segurança ofensiva de LLMs, agentes de IA e implementações do Model Context Protocol (MCP).
+Gosto de entender onde a confiança entre usuários, aplicações e sistemas de IA pode falhar. Hoje, divido meu tempo entre pesquisa em aplicações web, segurança ofensiva de LLMs e agentes de IA, e exploração de implementações do Model Context Protocol (MCP).
 
-Quando encontro uma vulnerabilidade, procuro publicar algo que outra pessoa consiga verificar: análise técnica, evidências, impacto, correção e uma prova de conceito controlada. Até agora, esse trabalho resultou em oito CVEs.
+Meu jeito de trabalhar é simples: uma descoberta só se torna útil quando outras pessoas conseguem entendê-la e reproduzi-la. Por isso, publico análise técnica, evidências, impacto, correção e uma prova de conceito controlada. Esse trabalho já resultou em oito CVEs.
 
 📍 Brasília, Brasil · [LinkedIn](https://www.linkedin.com/in/fernanduviana/) · [English](README.md) | **Português**
 
@@ -31,11 +31,12 @@ Seis dessas CVEs foram atribuídas pelo VulDB e duas pela VulnCheck.
 - **[Pentest-Tools](https://github.com/capivara-research/Pentest-Tools)** — coleção de ferramentas e referências que uso em pentests e laboratórios autorizados.
 - **[RedSonnet-5](https://github.com/capivara-research/RedSonnet-5)** — agentes e comandos para apoiar meus fluxos de CTF, HTB, OffSec PG e DESEC.
 
-## O que tenho explorado
+## No meu radar
 
-- Superfícies de ataque em LLMs, agentes de IA e servidores MCP.
+- Superfícies de ataque e limites de confiança em LLMs e agentes de IA.
+- Descoberta, enumeração e abuso de funcionalidades expostas por servidores MCP.
 - Vulnerabilidades em aplicações web e CMS, principalmente controle de acesso, XSS, SSRF, path traversal e upload de arquivos.
-- Automação e ferramentas para pesquisa ofensiva em ambientes autorizados.
+- Automação que torne pesquisas ofensivas mais rápidas e reproduzíveis.
 
 ## Contato
 
